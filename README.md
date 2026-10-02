@@ -15,10 +15,12 @@ Windows 11, 64-bit.
    `AE12F08579ADD8AFB6C8593B7C97A76EA5A2070C`
 
    If they don't match, stop: the folder isn't the published one.
-3. Windows asks for administrator permission once, to trust that certificate for app packages (the builds are
+3. If the PC has more than one drive with room, it asks which drive to install on (only the program goes there,
+   about 3 GB; your chats, notes and settings stay in your user folder). Updates stay on that drive.
+4. Windows asks for administrator permission once, to trust that certificate for app packages (the builds are
    signed with the project's own certificate, not yet a publicly trusted one). If SmartScreen says it protected
    your PC, click **More info**, then **Run anyway**.
-4. Chief opens and walks you through connecting an AI model and your notes folder.
+5. Chief opens and walks you through connecting an AI model and your notes folder.
 
 ## Updates
 
